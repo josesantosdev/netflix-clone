@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&display=swap');
+
+* {
+
+    padding : 0;
+    margin: 0;
+    font-size: 14px;
+    width: 100%;
+
+}
+
+
+.container {
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+ #top-bar {
+     background-color: black;
+ }
+
+ #capa-filme {
+     background-image: none;
+ }
+
+.logo {
+    display: flex;
+    color: #E50914;
+    font-size:2rem; 
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+   
+}
+
+.menu a{
+    margin-left: 1.5rem;
+    color:#333333;
+    font-family: 'Oswald',   sans-serif;
+    transition: 0.3s;
+}
+
+.menu a:hover{
+    color:#0078D4;
+}
+
+.container nav a {
+    text-decoration: none;
+}
